@@ -40,5 +40,13 @@ namespace Pokus2
 
             label1.Text = (a * b).ToString();
         }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            int a = Convert.ToInt32(textBox1.Text);
+            int b = Convert.ToInt32(textBox2.Text);
+
+            label1.Text = (a / b).ToString();
+        }
     }
 }
