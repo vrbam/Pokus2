@@ -47,6 +47,7 @@ namespace Pokus2
             int b = Convert.ToInt32(textBox2.Text);
 
             label1.Text = (a / b).ToString();
+            MessageBox.Show("Huráá");
         }
     }
 }
